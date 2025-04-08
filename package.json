@@ -1,0 +1,41 @@
+{
+  "name": "@0xsaleh/mcp-browser-inspector",
+  "version": "1.0.0",
+  "description": "🕵️ MCP Browser Inspector: A powerful MCP tool for capturing console logs, network errors, and DOM elements with optional login automation using Playwright.",
+  "main": "src/server.ts",
+  "bin": {
+    "mcp-browser-inspector": "src/server.ts",
+    "mcp-browser-cli": "src/cli.ts"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "cli": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "mcp",
+    "playwright",
+    "automation",
+    "browser",
+    "console",
+    "network",
+    "inspector",
+    "scraper",
+    "login",
+    "headless",
+    "cursor",
+    "mcp-browser-inspector",
+    "claude"
+  ],
+  "author": "0xsaleh",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "playwright": "^1.51.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
